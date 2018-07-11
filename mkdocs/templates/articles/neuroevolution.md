@@ -44,8 +44,8 @@ may always be successful. More may be added in the future!
   </div>
   <div class="panel-body">
     <p class="small">This neural network gets taught to classify if a letter of the alphabet is a vowel or not. The data is one-hot-encoded.</p>
-    <button type="button" class="btn btn-default" onclick="showModal(3, 0)">Training set</button>
-    <button type="button" class="btn btn-default" onclick="showModal(3, 1)">Evolve settings</button>
+    <button type="button" class="btn btn-default" onclick="showModal(100, 0)">Training set</button>
+    <button type="button" class="btn btn-default" onclick="showModal(20, 1)">Evolve settings</button>
     <div class="btn-group">
       <button type="button" class="btn btn-primary" onclick="run(3)">Start</button>
       <button type="button" class="btn btn-default status3" style="display: none" onclick="showModal(3, 2)">Status</button>
